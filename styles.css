@@ -1,0 +1,206 @@
+
+@font-face {
+    font-family: 'Script';
+    src: url('file:///C:/Users/basal/Documents/SSpecial/Dropship/Breaking.ttf') format('truetype');
+  }
+
+body {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Script', Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #002F6C, #2170FF);
+}
+
+.product-info {
+    background: linear-gradient(to bottom, #002F6C, #2170FF);
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .product-title {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .product-details {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .detail {
+    margin-bottom: 5px;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .value {
+    margin-left: 10px;
+  }
+  
+  .order {
+    background-color: #fff;
+    color: #3498db;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+  .order:hover {
+    background-color: #0C45B4;
+  }
+
+  .product-image {
+    max-width: 250px;
+    position: relative;
+    border-radius: 10px;
+  }
+
+  /* Webkit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #2170FF;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #0C45B4;
+  }
+  
+  /* Firefox */
+  /* Note: Firefox only supports the color property for scrollbar styling */
+  /* Set the width and color of the scrollbar track */
+  scrollbar-width: thin;
+  scrollbar-color: #f1f1f1 #2170FF;
+  color: #2170FF;
+  
+  /* Set the color of the scrollbar thumb on hover */
+  scrollbar-color: #f1f1f1 #0C45B4;
+  
+  /* Mozilla Firefox specific */
+  /* Set the width and color of the scrollbar track */
+  -moz-scrollbar-width: thin;
+  -moz-scrollbar-color: #f1f1f1 #2170FF;
+  
+  /* Set the color of the scrollbar thumb */
+  color: #2170FF;
+  
+  /* Set the color of the scrollbar thumb on hover */
+  -moz-scrollbar-color: #f1f1f1 #0C45B4;
+
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #002F6C, #2170FF);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  select,
+  input[type="text"] {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #555;
+    transition: border-color 1.0s ease-in-out;
+  }
+  
+  select:focus,
+  input[type="text"]:focus {
+    border-color: #2170FF;
+    outline: none;
+  }
+  
+  select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("arrow.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding-right: 25px;
+    cursor: pointer;
+  }
+  
+  @keyframes dropdown {
+    0% {
+      transform: translateY(-10px);
+      opacity: 10%;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 10;
+    }
+  }
+  
+  select,
+  input[type="text"],
+  button[type="submit"] {
+    animation-name: dropdown;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #2170FF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0C45B4;
+  }
+
+  .Last {
+    font-size: 200px;
+    font-weight: 500;
+    font-family: 'Script', Arial, Helvetica, sans-serif;
+  }
+
+  .Last2 {
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Script', Arial, Helvetica, sans-serif;
+  }
